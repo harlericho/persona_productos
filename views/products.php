@@ -11,7 +11,7 @@
                 <div class="card-header">
                     Products view</div>
                 <br>
-                <div class="col col-6">
+                <div class="col col-6 mt-2">
                     <button type="button" title="Add" class="btn btn-primary" data-toggle="modal"
                         data-target="#exampleModalAdd">
                         <i class="fa fa-plus-square"></i> Add

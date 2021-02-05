@@ -4,7 +4,7 @@ class Connection
     static function _connect()
     {
         try {
-            $connection = new PDO("mysql:host=localhost;dbname=_personaproducto", "root", "");
+            $connection = new PDO("mysql:host=localhost;dbname=db_personaproducto", "charlie", "charlie");
             //echo "conectado";
             return $connection;
         } catch (\Throwable $th) {
